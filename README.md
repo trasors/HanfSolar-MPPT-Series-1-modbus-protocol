@@ -34,7 +34,7 @@ More detailed testing was done using Termite (https://www.compuphase.com/softwar
 
 # Modbus registers 
 
-| Name | Address | Size (big endian) | Notes |
+| Name | Address | Number of registers | Notes |
 | --- | --- | --- | --- |
 | Solar voltage (V) | 0x0001 | 0x0001 | 0x076c = 1900 = 19.0V |
 | Battery voltage (V) | 0x0005 | 0x0001 | 0x0538 = 1320 = 13.2V |
