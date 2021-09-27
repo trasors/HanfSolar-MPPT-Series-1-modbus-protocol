@@ -36,9 +36,9 @@ More detailed testing was done using Termite (https://www.compuphase.com/softwar
 
 | Name | Address | Size (big endian) | Notes |
 | --- | --- | --- | --- |
-| Solar voltage (V) | 0x0001 | 0x0001 | |
-| Battery voltage (V) | 0x0005 | 0x0001 | |
-| Temperature (C) | 0x0006 | 0x0001 | |
+| Solar voltage (V) | 0x0001 | 0x0001 | 0x076c = 1900 = 19.0V |
+| Battery voltage (V) | 0x0005 | 0x0001 | 0x0538 = 1320 = 13.2V |
+| Temperature (C) | 0x0006 | 0x0001 | 0x0015 = 21 = 21C |
 | Load (A) | 0x0008 | 0x0001 | 0xaa = 170 = 1.7A |
 | Load (on/off) | 0x0036 | 0x0001 | 0x00 = on, 0x08=off |
 | Boost duration | 0x20 | 0x01 |  0x0078 (120ms) |
