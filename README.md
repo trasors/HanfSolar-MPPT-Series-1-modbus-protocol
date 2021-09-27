@@ -60,8 +60,7 @@ More detailed testing was done using Termite (https://www.compuphase.com/softwar
 You can get a complete dump of registers by reading 123 registers from address 0000 e.g.
 
 ## Command
-```0x00010000000601030000007b
-```
+```0x00010000000601030000007b```
 
 ## Output
 ```00 01 00 00 00 f9 01 03 f6 00 00 01  .....ù..ö...
