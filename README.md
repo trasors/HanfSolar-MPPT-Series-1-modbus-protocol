@@ -3,6 +3,8 @@
 I bought a cheap MPPT controller with bluetooth from Aliexpress. It looks to be the following model, but can also be seen branded as Mexxsun, Lexron etc.
 http://www.hanfsolar.com/products_detail/productId=104.html
 
+A great review can be found at https://www.youtube.com/watch?v=1wyP2qlu8AI
+
 I wanted to be able to query the controller over Bluetooth for logging and graphing purposes, however the modbus register documentation for this device is none existant (or not easily found).
 
 Below are the results of my findings. Please note, whilst these findings are useful for my purpose, they are not conclusive, so use/treat with caution.
@@ -82,7 +84,8 @@ ec 06 40 03 84 00 0c 00 0f 00 73 00  ì.@.„.....s.
 61 63 65 65 6e 63 69 20 53 65 69 6e  aceenci Sein
 66 48 61 6e 20 68 61 57 75 00 00 00  fHan haWu...
 64 05 a0 03 c0 00 00 00 00 00 00 00  d. .À.......
-00 00 00```
+00 00 00
+```
 
 # More RAW commands
 
@@ -92,7 +95,8 @@ Note, strings returned byte swapped and in reverse order
 ```0x000100000006010300480006
 0x0001000000060103004e0006
 ->
-MPPT1 Series```
+MPPT1 Series
+```
 
 ## Device version
 ```0x000100000006010300460002
