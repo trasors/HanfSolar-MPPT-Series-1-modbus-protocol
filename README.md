@@ -41,19 +41,19 @@ More detailed testing was done using Termite (https://www.compuphase.com/softwar
 | Temperature (C) | 0x0006 | 0x0001 | 0x0015 = 21 = 21C |
 | Load (A) | 0x0008 | 0x0001 | 0xaa = 170 = 1.7A |
 | Load (on/off) | 0x0036 | 0x0001 | 0x00 = on, 0x08=off |
-| Boost duration | 0x20 | 0x01 |  0x0078 (120ms) |
-| Equalize duration	| 0x21 | 0x01 | 0x0078 (120ms) |
-| Temp compensation	| | | -4 |
-| Charging limit | 0x44 | 0x01 | 0x0640 (16.00) |
-| Discharging limit | 0x45 | 0x01 | 0x0384 (9.00) |
-| Over volt disconnect | 0x34 | 0x01 | 0x0640 (16.00) |
-| Over volt reconnect | 0x35 | 0x01 | 0x060e (15.50) | 
-| Low volt disconnect | 0x23 | 0x01 | 0x0438 (10.80) |
-| Low volt reconnect | 0x24 | 0x01 | 0x04ec (12.60) |
-| Equalize charging | 0x1f | 0x01 | 0x05b4 (14.60) |
-| Boost charging | 0x1e | 0x01 | 0x05a0 (14.40) |
-| Float charging volt | 0x1d | 0x01 | 0x0564 (13.80) |
-| Boost recon charge | | | 0x04ec (12.60) |
+| Boost duration | 0x0020 | 0x0001 |  0x0078 (120ms) |
+| Equalize duration	| 0x0021 | 0x0001 | 0x0078 (120ms) |
+| Temp compensation	| 0x0022 | 0x0001 | 0xfffc = -4 |
+| Charging limit | 0x0044 | 0x0001 | 0x0640 (16.00) |
+| Discharging limit | 0x0045 | 0x0001 | 0x0384 (9.00) |
+| Over volt disconnect | 0x0034 | 0x0001 | 0x0640 (16.00) |
+| Over volt reconnect | 0x0035 | 0x0001 | 0x060e (15.50) | 
+| Low volt disconnect | 0x0023 | 0x0001 | 0x0438 (10.80) |
+| Low volt reconnect | 0x0024 | 0x0001 | 0x04ec (12.60) |
+| Equalize charging | 0x001f | 0x0001 | 0x05b4 (14.60) |
+| Boost charging | 0x001e | 0x0001 | 0x05a0 (14.40) |
+| Float charging volt | 0x001d | 0x0001 | 0x0564 (13.80) |
+| Boost recon charge | 0x0043 | 0x0001| 0x04ec (12.60) |
 
 
 # RAW dump of registers
