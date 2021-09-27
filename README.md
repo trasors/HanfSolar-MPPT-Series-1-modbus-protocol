@@ -13,7 +13,7 @@ Below are the results of my findings. Please note, whilst these findings are use
 The bluetooth device in the controller is a DX-BT18 device. The device name is BT18 and the default password is 1234. There is a microswitch on the module that probably boots it into AT mode (not tested)
 
 # Methodology
-In order to get an idea of the protocol, I installed the Android app, enabled developer mode and switched on bluetooth debugging. I then began using the app to query the device. Once I had gone through enough options, I saved to debug log (via ADB) and imported into Wireshark. It was fairly clear from Wireshark that the protocol used is similar to Modbus TCP.
+In order to get an idea of the protocol, I installed the Android app from the manufacturer website, enabled developer mode on the phone and switched on bluetooth debugging. I then began using the app to query the controller. Once I had gone through enough options, I saved the debug log (via ADB) and imported into Wireshark. It was fairly clear from Wireshark that the protocol used is similar to Modbus TCP.
 
 ## Further testing
 More detailed testing was done using Termite (https://www.compuphase.com/software_termite.htm) because it easy allowed HEX messages to be sent. If using Windows, use the 2nd com port presented by the BT18 device (baud rate is unimportant)
