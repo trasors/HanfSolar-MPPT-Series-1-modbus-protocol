@@ -7,7 +7,7 @@ A great review can be found at https://www.youtube.com/watch?v=1wyP2qlu8AI
 
 I wanted to be able to query the controller over Bluetooth for logging and graphing purposes, however the modbus register documentation for this device is none existant (or not easily found).
 
-Below are the results of my findings. Please note, whilst these findings are useful for my purpose, they are not conclusive, so use/treat with caution.
+Below are the results of my findings. Please note, whilst these findings are useful for my purpose, they are based on observation and not conclusive, so use/treat with caution.
 
 # Hardware
 The bluetooth device in the controller is a DX-BT18 device. The device name is BT18 and the default password is 1234. There is a microswitch on the module that probably boots it into AT mode (not tested)
