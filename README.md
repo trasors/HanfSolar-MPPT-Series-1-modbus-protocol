@@ -60,7 +60,8 @@ More detailed testing was done using Termite because it easy allowed HEX message
 You can get a complete dump of registers by reading 123 registers from address 0000 e.g.
 
 ## Command
-```0x00010000000601030000007b```
+```0x00010000000601030000007b
+```
 
 ## Output
 ```00 01 00 00 00 f9 01 03 f6 00 00 01  .....ù..ö...
@@ -89,7 +90,7 @@ ec 06 40 03 84 00 0c 00 0f 00 73 00  ì.@.„.....s.
 
 # More RAW commands
 
-Note, strings returned byte swapped and in reverse order 
+Note, strings returned byte swapped and in reverse order
 
 ## Device model
 ```0x000100000006010300480006
@@ -101,7 +102,8 @@ MPPT1 Series
 ## Device version
 ```0x000100000006010300460002
 ->
-1.2 1.5```
+1.2 1.5
+```
 
 ## Device manufacturer
 ```0x000100000006010300600006
