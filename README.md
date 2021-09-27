@@ -16,7 +16,7 @@ The bluetooth device in the controller is a DX-BT18 device. The device name is B
 In order to get an idea of the protocol, I installed the Android app, enabled developer mode and switched on bluetooth debugging. I then began using the app to query the device. Once I had gone through enough options, I saved to debug log (via ADB) and imported into Wireshark. It was fairly clear from Wireshark that the protocol used is similar to Modbus TCP.
 
 ## Further testing
-More detailed testing was done using Termite because it easy allowed HEX messages to be sent. If using Windows, use the 2nd com port presented by the BT18 device (baud rate is unimportant)
+More detailed testing was done using Termite (https://www.compuphase.com/software_termite.htm) because it easy allowed HEX messages to be sent. If using Windows, use the 2nd com port presented by the BT18 device (baud rate is unimportant)
 
 # Packet format
 
