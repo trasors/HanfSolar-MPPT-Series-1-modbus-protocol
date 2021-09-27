@@ -39,8 +39,8 @@ More detailed testing was done using Termite (https://www.compuphase.com/softwar
 | Solar voltage (V) | 0x0001 | 0x0001 | 0x076c = 1900 = 19.0V |
 | Battery voltage (V) | 0x0005 | 0x0001 | 0x0538 = 1320 = 13.2V |
 | Temperature (C) | 0x0006 | 0x0001 | 0x0015 = 21 = 21C |
-| Load (A) | 0x0008 | 0x0001 | 0xaa = 170 = 1.7A |
-| Load (on/off) | 0x0036 | 0x0001 | 0x00 = on, 0x08=off |
+| Load (A) | 0x0008 | 0x0001 | 0x00aa = 170 = 1.7A |
+| Load (on/off) | 0x0036 | 0x0001 | 0x0000 = on, 0x0008=off |
 | Boost duration | 0x0020 | 0x0001 |  0x0078 (120ms) |
 | Equalize duration	| 0x0021 | 0x0001 | 0x0078 (120ms) |
 | Temp compensation	| 0x0022 | 0x0001 | 0xfffc = -4 |
