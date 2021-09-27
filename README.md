@@ -27,10 +27,10 @@ More detailed testing was done using Termite (https://www.compuphase.com/softwar
 | 00 01 | 00 00 | 00 06 | 01 | 03 | 00 00 | 00 01 |
 
 ## Response
-| Transaction ID | Protocol ID | Length | Unit ID | Function code | Length | Data |
+| Transaction ID | Protocol ID | Length | Unit ID | Function code | Length in bytes | Data |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2 bytes | 2 bytes | 2 bytes | 1 byte | 1 byte | 1 byte | n bytes |
-| 00 01 | 00 00 | 00 05 | 01 | 03 | 02 | 00 08 etc. |
+| 00 01 | 00 00 | 00 05 | 01 | 03 | e.g. 02 | e.g. 00 08 |
 
 # Modbus registers 
 
